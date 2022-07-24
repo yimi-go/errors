@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package no_enum;
+
+option go_package = "github.com/yimi-go/errors/cmd/protoc-gen-yimi-errors/testdata/no_enum;no_enum";
+
+message Foo {
+  string bar = 1;
+}

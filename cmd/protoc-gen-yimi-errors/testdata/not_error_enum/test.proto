@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+package not_error_enum;
+
+option go_package = "github.com/yimi-go/errors/cmd/protoc-gen-yimi-errors/testdata/not_error_enum;not_error_enum";
+
+import "yimi/errors/v1/errors.proto";
+
+enum Enum {
+  option (yimi.errors.v1.error_define) = false;
+  ZERO = 0;
+  ONE = 1;
+  TWO = 2;
+}

@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package common_enum;
+
+option go_package = "github.com/yimi-go/errors/cmd/protoc-gen-yimi-errors/testdata/common_enum;common_enum";
+
+enum Enum {
+  ZERO = 0;
+  ONE = 1;
+  TWO = 2;
+}

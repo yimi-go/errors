@@ -1,13 +1,12 @@
 version: v1
-name: buf.build/yimi-go/errors
-build:
-  excludes:
-    - cmd
 breaking:
   use:
     - FILE
 deps:
   - buf.build/googleapis/googleapis:61dea4c7129940a2aac61f35386b960c
+  - buf.build/yimi-go/errors
 lint:
   use:
     - DEFAULT
+  except:
+    - PACKAGE_VERSION_SUFFIX
