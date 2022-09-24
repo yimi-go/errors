@@ -7,7 +7,7 @@ breaking:
   use:
     - FILE
 deps:
-  - buf.build/googleapis/googleapis:61dea4c7129940a2aac61f35386b960c
+  - buf.build/googleapis/googleapis:e9fcfb66f77242e5b8fd4564d7a01033
 lint:
   use:
     - DEFAULT
